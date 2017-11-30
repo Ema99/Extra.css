@@ -1,0 +1,1064 @@
+<xen:include template="cta_bbcode.css" /> /*serve per far funzionare le tabelle NON TOGLIERE*/
+.fa
+{
+	font-family: FontAwesome !important;
+}
+
+input[type=checkbox]
+{
+	position: relative;
+	top: 2px;
+}
+
+a.callToAction:hover
+{
+	background: @mutedTextColor;
+}
+
+.button.smallButton
+{
+	border-radius: 0;
+}
+
+.breadBoxTop .topCtrl a.callToAction
+{
+	height: 30px;
+	line-height: 30px;
+}
+
+.message .publicControls .item.hashPermalink
+{
+	float: right;
+	color: @contentText;
+}
+
+.publicControls .item.control
+{
+	color: @contentText;
+}
+
+.publicControls .item.control.unlike
+{
+	color: @primaryMedium;
+}
+
+.privateControls .item.control
+{
+	color: @contentText;
+}
+
+.button.spinBoxButton
+{
+	line-height: 25px;
+	height: 25px;
+	margin-left: 5px;
+}
+
+.posterAvatar .miniMe
+{
+	display: none !important;
+}
+
+/***************************/
+
+/** BEGIN MEMBER **/
+
+.news_feed_page_global .eventList > li:last-child
+{
+	border-bottom: none;
+}
+
+.member_view .eventList 
+{
+	border-left: none;
+	border-right: none;
+}
+
+.member_view #ProfilePanes li ol:not(.messageResponse) > li
+{
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.member_view #ProfilePanes li .messageSimpleList > li:last-child
+{
+	border-bottom: none;
+}
+
+.member_view #ProfilePanes li > ol > li:last-child
+{
+	border-bottom: none;
+}
+
+.member_view #ProfilePanes .textHeading 
+{
+	padding: 0 10px 10px;
+}
+
+.member_notable .mainContent > .section,
+.online_list .mainContent > .section,
+.news_feed_page_global .eventList
+{
+	border-left: 1px solid @primaryLighterStill;
+	border-right: 1px solid @primaryLighterStill;
+	border-bottom: 1px solid @primaryLighterStill;
+	margin-top: 0px;
+}
+
+.memberList .memberListItem:last-child
+{
+	border-bottom: none;
+}
+
+.NewsFeedEnd .sectionFooter
+{
+	border-left: 1px solid @primaryLighterStill;
+	border-right: 1px solid @primaryLighterStill;
+	border-bottom: 1px solid @primaryLighterStill;
+}
+
+#ProfilePanes
+{
+	margin-top: -10px;
+	background-color: @contentBackground;
+}
+
+.newsFeed .extra
+{
+	margin: 10px 0;
+}
+
+/** END MEMBER **/
+
+/** BEGIN MESSAGE, CONVERSATION **/
+
+.messageMeta .fa
+{
+	margin: 0 5px;
+}
+
+.messageMeta .item
+{
+	padding: 1px;
+}
+
+.item.control:before
+{
+	content: "";
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 14px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-right: 5px;
+}
+
+.item.control.edit:before
+{
+	content: "\f040";
+}
+
+.item.control.delete:before
+{
+	content: "\f1f8";
+}
+
+.item.control.ip:before
+{
+	content: "\f08d";
+}
+
+.item.control.report:before
+{
+	content: "\f0c5";
+}
+
+.item.control.warn:before
+{
+	content: "\";
+}
+
+.item.control.LikeLink:before
+{
+	content: "\f087";
+}
+
+.item.control.reply:before
+{
+	content: "\f0e6";
+}
+
+/** END MESSAGE, CONVERSATION **/
+
+/** BEGIN NODE LIST **/
+
+.nodeList.sectionMain
+{
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.node .linkNodeInfo .nodeText
+{
+	margin-right: 10px;
+}
+
+.node .nodeLastPost .lastThreadTitle
+{
+	color: @primaryMedium;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.node .nodeLastPost .lastThreadTitle a
+{
+	color: @contentText;
+	margin-left: 5px;
+}
+
+.node .nodeLastPost .lastThreadMeta .lastThreadUser .username
+{
+	margin-right: 5px;
+	color: @contentText;
+}
+
+/** END NODE LIST **/
+
+/** BEGIN DISCUSION LIST **/
+
+.discussionListItem:last-child .stats
+{
+	border: none;
+}
+
+.forum_view .nodeList.sectionMain
+{
+	margin-top: 0;
+}
+
+/** BEGIN DISCUSION LIST **/
+
+/** BEGIN SIDEBAR **/
+
+.sidebar .avatarList li:last-child
+{
+	margin-bottom: 0;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.sidebar .section .secondaryContent
+{
+}
+
+.sidebar .visitorPanel .secondaryContent
+{
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.sidebar .visitorPanel .stats .pairsJustified dd,
+.sidebar .visitorPanel .stats .pairsJustified dt
+{
+	color: @contentText;
+}
+
+/** END SIDEBAR **/
+/** BEGIN OVERLAY **/
+
+.xenOverlay .formOverlay .textCtrl[type=file], 
+.xenOverlay .formOverlay .textCtrl[type=file]:focus 
+{
+	background-color: transparent;
+	color: @faintTextColor;
+}
+
+.chooserColumns li a:hover .title
+{
+	color: @primaryMedium;
+}
+
+/** BEGIN OVERLAY **/
+
+.messageList .message:first-child
+{
+	border: none;
+}
+
+.sidebar .section:last-child
+{
+	margin-bottom: 0;
+}
+
+.attachment .attachmentInfo .filename a
+{
+	font-size: 14px;
+	color: @contentText;
+}
+
+.discussionListItem .title a
+{
+	color: @faintTextColor;
+}
+
+form.section.InlineModForm 
+{
+	margin: 0;
+	background-color: @contentBackground;
+}
+
+.navigationSideBar .subHeading
+{
+	color: @primaryMedium;
+}
+
+#ThreadCreate .redactor_toolbar,
+.conversation_add .redactor_toolbar
+{
+	border: 1px solid @primaryLightest;
+	border-bottom: none;
+}
+
+/***********************************/
+
+.xenOverlay .section > .sectionFooter
+{
+	padding: 0;
+}
+
+.xenOverlay .sectionFooter .button
+{
+	vertical-align: top;
+}
+
+.xenOverlay .sectionFooter > .button 
+{
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	float: right;
+	margin-left: 5px;
+	visibility: visible;
+	height: 38px;
+	line-height: 38px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-khtml-border-radius: 0;
+	border-radius: 0;
+	color: #FFF;
+	max-width: 20px;
+	text-indent: 9999px;
+	overflow: hidden;
+	background: none;
+}
+
+.xenOverlay .sectionFooter .buttonContainer
+{
+	min-width: 75px;
+	*min-width: 0;
+	float: right;
+	margin: 5px;
+	line-height: 31px;
+}
+
+.xenOverlay .sectionFooter > .button:before
+{
+	content: "x";
+	position: absolute;
+	right: 5px;
+	font-size: 16px;
+}
+
+/*MODIFICHE BY ARATON_10 AL CSS*/
+
+/*MODIFICHE BY ARATON_10 AL CSS*/
+
+/*Testo Categorie centrato*/
+
+.nodeList .categoryStrip {
+    text-align: center !important;
+    
+}
+
+.navTabs .navTab.PopupClosed .navLink {
+	background-color: rgba(0, 0, 0) !important;
+}
+
+.navTabs .navTab.selected .navLink {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navTabs {
+    font-size: 14px;
+    padding: 0;
+    height: 40px;
+    background-color: rgb(2,2,2) !important;
+}
+
+div#logo {
+	align: center;
+}
+.sidebar .section .primaryContent h3, .sidebar .section .secondaryContent h3, .profilePage .mast .section.infoBlock h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: -10px -10px 10px;
+    border-bottom: 1px solid rgb(22, 16, 16);
+    background-color: rgba(2,2,2,0.5) !important;
+}
+.navTabs .navTab.selected .tabLinks {
+    width: 100%;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    zoom: 1;
+    position: absolute;
+    left: 0px;
+    /* top: 40px; */
+    bottom: 0;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0)!important;
+    background-position: 0px -40px;
+}
+.breadBoxTop {
+    background-color: rgba(0, 0, 0, 0)!important;
+    margin-top: 0;
+}
+.titleBar {
+    background-color: rgba(0, 0, 0, 0)!important;
+    margin-bottom: 1px;
+}
+
+#logo img {
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    width: 10%;
+}
+
+.nodeList .categoryStrip {
+    font-size: 14px;
+    color: #ffffff;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5) !important;
+    _filter: progidXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0)!important;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 1)!important;
+    _filter: progidXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    min-height: 6px;
+}
+ 
+ 
+ 
+.node .nodeLastPost {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0)!important;
+    _filter: progidXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0,0)!important;
+    font-size: 12px;
+    padding: 3px 10px;
+    margin: 10px;
+    border-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 16px;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    width: 210px;
+    height: 32px;
+}
+
+.sidebar .userList .username.invisible {
+    color: rgb(153,153,153);
+}
+
+.titleBar h1 {
+    font-size: 0pt;
+    padding: 6px 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.nodeList.sectionMain {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: -13px;
+}
+
+.sidebar .section .primaryContent h3, .sidebar .section .secondaryContent h3, .profilePage .mast .section.infoBlock h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: -10px -10px 10px;
+    border-bottom: 1px solid rgb(22, 16, 16);
+    background-color: rgba(0,0,0,1) !important;
+}
+
+.navTabs .navTab.PopupOpen .navLink .selected {
+	background-color: rgba(2,2,2,0.5) !important;
+}
+.button {
+    font-style: normal;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: rgb(93, 93, 93)!important;
+    padding: 0px 6px;
+    border-style: none;
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    line-height: 26px;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 28px;
+}
+a.callToAction {
+    background-color: rgb(153, 153, 153);
+    padding: 2px;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 26px;
+    outline: 0 none;
+    vertical-align: top;
+    height: 26px;
+}
+#pageDescription {
+    font-size: 0px !important;
+    color: rgb(150,150,150);
+    margin: 2px 10px 10px;
+}
+.pageNavLinkGroup {
+    display: table;
+    table-layout: fixed;
+    box-sizing: border-box;
+    font-size: 12px;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px 0;
+    line-height: 16px;
+}
+
+.discussionListItem .stats {
+    background-color: rgba(0, 0, 0,0) !important;
+    border-bottom: 1px solid rgba(0, 0, 0,0)!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+    border-bottom: 1px solid rgba(0, 0, 0,0)!important;
+}
+
+.navTabs .navLink .itemCount {
+	background-color: red !important;
+}
+.node .forumNodeInfo .nodeIcon,
+	.node .categoryForumNodeInfo .nodeIcon
+	{
+		background-image: none !important;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	}
+	
+.node .tinyIcon {
+background:none !important;
+margin: 1px 4px;
+display: block;
+white-space: nowrap;
+text-indent: 9999px;
+overflow: hidden;
+opacity: 0.25;
+width: 14px;
+height: 14px;
+
+}
+	
+.message .newIndicator {
+font-weight: bold !important;
+font-size: 13px !important;
+color: #FFF !important;
+background-color: rgb(255, 0, 0) !important;
+border-top: 2px solid black !important;
+border-left: 2px solid black !important;
+border-right: 2px solid black !important;
+border-bottom: 2px solid black !important;
+padding: 1px 5px !important;
+margin: 0 0 5px 5px !important;
+margin-top: 0px !important;
+border-radius: 2px !important;
+display: block !important;
+float: right !important;
+position: relative !important;
+}
+
+.message .newIndicator span {
+	background-color: black !important;
+}
+
+.PageNav a.currentPage {
+    color: #ffffff;
+    background-color: rgb(123, 123, 123);
+    position: relative;
+}
+.Menu .primaryContent {
+    background-color: rgba(0, 0, 0, 1)!important;
+}
+.Menu .secondaryContent {
+    background-color: rgba(0, 0, 0,1)!important;
+}
+.sectionMain {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    margin: 15px auto 0px;
+}
+.messageList .message {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px 10px 30px;
+    border-top: 1px solid rgb(22, 16, 16);
+}
+form.section.InlineModForm {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.messageUserInfo {
+    background-color: rgba(0, 0, 0,0)!important;
+    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0)!important;
+    _border: 1px solid rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    width: 124px;
+}
+.message .messageInfo {
+    padding: 0;
+    margin-left: 140px;
+    border-bottom: 1px none black;
+    background-color: rgba(0,0,0,0)!important;
+    zoom: 1;
+}
+h3 {
+    display: block;
+    font-weight: bold !important;
+}
+.footerLegal .pageContent {
+    font-size: 12px;
+    overflow: hidden;
+    zoom: 1;
+    padding: 10px 5px;
+    text-align: left !important;
+}
+#legal {
+    float: left !important;
+    margin-top: 10px!important;
+    margin-left: -10px!important;
+}
+.footerLinks a.globalFeed {
+    width: 14px;
+    height: 14px;
+    display: block;
+    text-indent: -9999px;
+    white-space: nowrap;
+    background: none !important;
+    padding: 0;
+
+}
+.nodeDescriptionTip {
+    background-color: rgb(0, 0, 0)!important;
+    padding: 4px 10px;
+    margin-top: -22px;
+    line-height: 1.5;
+    width: 350px;
+    height: auto;
+}
+.node .nodeText .nodeTitle, .node .nodeText .nodeTitle a {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(77,77,77)!important;
+    font-weight: 600;
+}
+.pairs dt, .pairsInline dt, .pairsRows dt, .pairsColumns dt, .pairsJustified dt {
+    color: rgb(195, 195, 195)!important;
+}
+.subForumsPopup .dt {
+    color: rgb(195, 195, 195)!important;
+}
+.node .unread .nodeText .nodeTitle, .node .unread .nodeText .nodeTitle a {
+    font-weight: bold;
+    color: rgb(21, 127, 255)!important;
+}
+.discussionListItems .unread .title a {
+    font-weight: bold;
+    color: rgb(21, 127, 255)!important;
+}
+.thread_view .threadAlerts {
+    border: 0px !important;
+    border-radius: 0px;
+    font-size: 11px;
+    margin: 10px 0;
+    margin-top: 25px!important;
+    padding: 5px;
+    line-height: 25px !important;
+    background-image:none !important;
+}
+.thread_view .threadAlerts dd {
+    color: rgb(183, 53, 53) !important;
+    font-weight: bold;
+    display: inline;
+}
+.thread_view .threadAlerts dt {
+    color: white !important;
+    display: inline;
+    font-weight: bold;
+}
+.threadListItem {
+    overflow: hidden;
+    zoom: 1;
+    margin: 5px 0;
+    padding-top: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0)!important;
+}
+.sidebar .section .primaryContent h3, .sidebar .section .secondaryContent h3, .profilePage .mast .section.infoBlock h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: -10px -10px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+    background-color: rgba(0,0,0,1) !important;
+}
+.sidebar .avatarList li {
+    padding-bottom: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+    overflow: hidden;
+    zoom: 1;
+}
+.textCtrl {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: rgb(26, 19, 19);
+    padding: 5px 3px;
+    margin-bottom: 2px;
+    border: 0px!important;
+    border-radius: 0px!important;
+    outline: 0;
+}
+.button {
+    font-style: normal;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: rgb(93, 93, 93)!important;
+    padding: 0px 6px;
+    border-style: none;
+    border-radius: 0px!important;
+    text-align: center;
+    outline: none;
+    line-height: 26px;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 28px;
+}
+.statusEditorCounter {
+    color: #ffcd00!important;
+}
+#QuickSearch.active {
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.5);
+    background-color: rgb(39, 39, 39)!important;
+}
+.textCtrl {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: rgb(53, 53, 53)!important;
+    padding: 5px 3px;
+    margin-bottom: 2px;
+    border: 0px!important;
+    border-radius: 0px!important;
+    outline: 0;
+}
+.tabs {
+    font-size: 11px;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+    word-wrap: normal;
+    min-height: 23px;
+    _height: 23px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+.tabs li a, .tabs.noLinks li {
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none;
+    background-color: rgb(95, 95, 95)!important;
+    padding: 0 8px;
+    margin-right: 3px;
+    margin-bottom: -1px;
+    border: 1px solid rgba(0, 0, 0, 0)!important;
+    display: inline-block;
+    line-height: 22px;
+    cursor: pointer;
+    outline: 0 none;
+    white-space: nowrap;
+    word-wrap: normal;
+    height: 22px;
+}
+.primaryContent {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgb(80, 37, 37);
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+}
+.breadcrumb {
+    font-size: 13px;
+    margin-top: 10px!important;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    overflow: hidden;
+    zoom: 1;
+    max-width: 100%;
+    height: 40px;
+}
+.discussionList .sectionHeaders {
+    font-size: 14px;
+    color: #ffffff;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+    padding: 0;
+}
+.discussionList .sectionFooter {
+    overflow: hidden;
+    zoom: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0)!important;
+}
+#DiscussionListOptionsHandle a {
+    font-size: 11px;
+    color: rgb(178, 178, 178);
+    background: url(rgba.php?r=30&g=22&b=22&a=178);
+    background: rgba(30, 22, 22, 0.7);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B21E1616,endColorstr=#B21E1616);
+    padding: 0 20px;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0)!important;
+    _border: 1px solid rgb(0, 0, 0);
+    border-top-style: none;
+    display: inline-block;
+    outline: 0;
+    position: relative;
+    right: -50%;
+}
+.sectionFooter {
+    overflow: hidden;
+    zoom: 1;
+    font-size: 11px;
+    color: rgba(252, 252, 252, 1)!important;
+    background: url(rgba.php?r=0&g=0&b=0&a=127) repeat-x top;
+    background: rgba(0, 0, 0, 0.5) repeat-x top;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 8px 10px;
+    line-height: 16px;
+}
+.sectionFooter a {
+    color: rgba(255, 255, 255, 1)!important;
+}
+.secondaryContent {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+}
+.avatar img, .avatar .img, .avatarCropper {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    border-radius: 0px!important;
+}
+.message .likesSummary {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    background-color: rgba(0, 0, 0,0.5)!important;
+    padding: 8px 10px;
+    margin-top: 10px;
+}
+
+xenOverlay.memberCard {
+    color: rgb(153, 153, 153);
+    background: url(https://soulnetwork.it/forum/rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 1)!important;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    overflow: hidden;
+    max-width: 565px;
+}
+.profilePage .tabs.mainTabs {
+    padding: 0 10px;
+    margin-top: -23px;
+    min-height: 23px;
+    height: auto;
+    position: relative;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0)!important;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+.profilePage .tabs.mainTabs {
+    padding: 0 10px;
+    margin-top: -28px!important;
+    margin-left: 15%!important;
+    min-height: 23px;
+    height: auto;
+    position: relative;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5);
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+.primaryContent {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0)!important;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    border-bottom: 1px solid rgb(80, 37, 37);
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0)!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0)!important;
+    _border-bottom: 1px solid rgb(0, 0, 0)!important;
+}
+.messageSimpleList .placeholder .placeholderContent {
+    overflow: hidden;
+    zoom: 1;
+    background: rgb(100, 24, 24)!important;
+    padding: 5px;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+}
+.profilePage .mainProfileColumn {
+    margin-left: 207px;
+    border-left: 1px solid rgba(0, 0, 0, 0)!important;
+    zoom: 1;
+}
+.profilePage .mast .section.infoBlock {
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, 0)!important;
+}
+.profilePage .profileContent {
+    /* margin-left: 10px; */
+    margin-top: 30px;
+}
+.profilePage .primaryUserBlock .userStatus {
+    font-size: 11pt;
+    line-height: 1.4;
+    font-style: italic;
+    font-size: 9pt;
+    padding-top: 5px;
+    text-align: end;
+}
+.userBanner.bannerStaff {
+    color: #ffffff; /*toglie la scritta membro dello staff nella pagina dle profilo*/
+    font-size: 0px!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.userBanner.bannerPrimary {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0)!important;/*toglie lo sfondo grigio alla targhetta*/
+    border-color: rgb(255, 255, 255);
+}
+.profilePage .primaryUserBlock .userBanners .userBanner {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+.sectionMain {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5)!important;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    margin: 15px auto 0px;
+}
+.discussionList .sectionHeaders {
+    font-size: 14px;
+    color: #ffffff;
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0.5)!important;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 0;
+}
+.discussionListItem {
+    background: url(rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 0)!important;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    border-bottom: 1px solid rgb(22, 16, 16);
+    border: none;
+}
+.xenOverlay.memberCard {
+    color: rgb(153, 153, 153);
+    background: url(https://soulnetwork.it/forum/rgba.php?r=0&g=0&b=0&a=127);
+    background: rgba(0, 0, 0, 1)!important;
+    _filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    padding: 10px;
+    overflow: hidden;
+    max-width: 565px;
+}
+.node .pageNodeInfo .nodeIcon {
+    background-image: none !important;
+    background-repeat: no-repeat;
+    background-position: -72px 0;
+}
+a.callToAction {
+    background-color: rgb(153, 153, 153);
+    padding: 2px;
+    border-radius: 0px!important;
+    display: inline-block;
+    line-height: 26px;
+    outline: 0 none;
+    vertical-align: top;
+    height: 26px;
+}
+
+.staffHeading { 
+	color: #0078ff !important;
+} 
+.baseHtml th, .baseHtml td {
+    border: 1px solid #7e7e7e!important;
+    padding: .5em;
+}
+#SignupButton .inner {
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: rgb(91, 91, 91)!important;
+    display: block;
+    text-shadow: 0px 0px 3px rgba(0,0,0, 0.5);
+}
+.ctaBbcodeTable td.ctaBbcodeTableCellHeader { /*colore tabelle*/
+    border: 1px solid #65a5d1;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(26, 19, 19)!important;
+}
